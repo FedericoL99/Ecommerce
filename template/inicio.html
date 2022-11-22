@@ -7,59 +7,78 @@
     <link rel="stylesheet" href="/static/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/ac809dc774.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <div class="containr">
+    <div class="container">
 
         <div class="hero">
             <nav class="nav-navegation">
-                <h2 class="nav-navegation__logo">Logo <span>logo2</span></h2>
+                <h2 class="nav-navegation__logo">Eco<span>mmerce</span>    <i class="fa-solid fa-laptop"></i></h2>
                 <ul>
-                    <li><a href="/template/inicio.html">Inicio</a></li>
-                    <li><a href="/template/categorias.html">Categorias</a></li>
-                    <li><a href="/template/carrito.html">Carrito</a></li >
-                    <li><a href="/template/login.html">Iniciar Sesion</a></li>
-                    <li><a href="/template/contacto.html">Contacto</a></li>
+                    <li><a href="/template/inicio.html"><i class="fa-solid fa-house"></i>  Inicio</a></li>
+                    <li><a href="/template/categorias.html"><i class="fa-solid fa-bars"></i>   Categorias</a></li>
+                    <li><a href="/template/carrito.html"><i class="fa-solid fa-cart-shopping"></i>   Carrito</a></li >
+                    <li><a href="/template/login.html"><i class="fa-solid fa-person"></i>  Iniciar Sesion</a></li>
+                    <li><a href="/template/contacto.html"><i class="fa-solid fa-address-book"></i>   Contacto</a></li>
                         
                     </ul>
-                </nav>
-            </div>            
-    <div class="container">
-        <div class="carrusel">
-            <ul>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-                <li>Imagen carrusel</li>
-            </ul>
+                </nav>           
+            
 
         </div>
     </div>
 
-    <div class="container">
-        <div class="category">
-            <h2>CATEGORIAS</h2>
-            <ul>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-                <li>imagen</li>
-            </ul>
-
-        </div>
+    <div class="slider">
+        <ul>
+            <li><img src="/static/image/descarga1.jpg" alt=""></li>
+            <li><img src="/static/image/descarga1.jpg" alt=""></li>
+            <li><img src="/static/image/descarga3.jpg" alt=""></li>
+            <li><img src="/static/image/descarga3.jpg" alt=""></li>
+        </ul>
     </div>
-
-
-    
+        <div class="categorias">
+            <div class="categorias_titulo"><h2>Categorias</h2></div>   
+            <div class="categoria">
+                <div class="card" style="--i:url(/static/image/pantalla.jpg)">
+                    <div class="content">
+                        <h2>Monitores</h2>
+                        <a href="#">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="card" style="--i:url(/static/image/memoria-ram.jpg)">
+                    <div class="content">
+                        <h2>Memoria RAM</h2>
+                        <a href="#">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="card" style="--i:url(/static/image/procesador.jpg)">
+                    <div class="content">
+                        <h2>Procesador</h2>
+                        <a href="#">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="card" style="--i:url(/static/image/tarjeta.jpg)">
+                    <div class="content">
+                        <h2>Tarjeta Grafica</h2>
+                        <a href="#">Ver detalles</a>
+                    </div>
+                </div>
+                <div class="card" style="--i:url(/static/image/case.jpg)">
+                    <div class="content">
+                        <h2>Chasis</h2>
+                        <a href="#">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            
+            
 </body>
 <footer>
     <div class="contact">
