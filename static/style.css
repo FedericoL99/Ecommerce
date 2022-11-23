@@ -26,6 +26,8 @@ nav{
     padding-right: 10%;
     background-color: rgb(168, 168, 168);
     padding-bottom: 20px;
+    box-shadow: 3px 3px 5px rgb(3,32,51,.8);
+    margin: 5px;
 
 }
 
@@ -70,20 +72,20 @@ nav ul li a:hover{
     width: 100%;
     padding: 15px;
     border-radius: 10px;
-
 }
+
  .formulario{
-    background: rgb(99, 94, 94);
+    background: rgba(199, 199, 199, 0.8);
     margin:150px;
     padding: 3px;
     border-radius: 10px;
-    box-shadow:0px 0px 10px red;
+    box-shadow: 3px 5px 5px rgb(3,32,51,.8);
     
  }
 
  h1{
     text-align: center;
-    color: aqua;
+    color: rgb(0, 0,0,.8);
     font-size: 40px;
  }
 
@@ -93,7 +95,7 @@ input[type="text"], input[type="password"]{
     padding: 10px;
     border: none;
     border-radius: 10px;
-    box-shadow:0px 0px 10px red;
+    box-shadow: 3px 5px 5px rgb(3,32,51,.8);
 }
 
 .input-contenedor{
@@ -114,14 +116,14 @@ input[type="text"], input[type="password"]{
 .buttom{
     border: none;
     /* width: 100%; */
-    color: wheat;
+    color: rgb(0, 0,0,.8);
     font-size: 20px;
     background:rgba(117, 117, 161, 0.24);
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-    box-shadow:0px 0px 10px red;
+    box-shadow: 3px 5px 5px rgb(3,32,51,.8);
 }
 
 .button:hover{
@@ -135,13 +137,13 @@ p{
 
 .link{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(0, 0,0,.8);
     font-weight: 600;
 
 }
 
 .link:hover{
-    color: aquamarine;
+    color: rgb(0, 0,0);
 }
 
 /*Slider*/
@@ -203,13 +205,15 @@ p{
     justify-content: center;
     border: 5px solid grey;
     border-radius: 10px;
-    
+
 
 }
 
 
 .card{
     margin: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     width: 200px;
     height: 300px;
     border-radius: 5px;
@@ -239,5 +243,100 @@ p{
 .card:hover .content{
     opacity: 1;
 
+}
+
+.contenido-categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.contenido img{
+    width: 500px;
+    height: 500px;
+}
+
+.contenido button{
+
+    padding: 10px;
+    width: 100%;
+}
+
+
+.card-categoria{
+    padding: 50px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px rgb(3,32,51,.8);
+    min-height: 50vh;
+
+}
+
+footer{
+    background:  rgb(168, 168, 168);
+}
+
+footer h1{
+    color: aqua;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+}
+
+.contenido-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido-footer_card{
+    padding: 1px;
+    margin: 30px 100px;
+}
+
+.contenido-footer_card li{
+    list-style: none;
+    color:rgb(49, 49, 49);
+
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid rgb(255, 255, 255, 0.8);
+    
+
+}
+
+.abajo-icon{
+    margin: 0;
+    position: absolute;
+    left: 53px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.abajo-politicas span{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0,0,.8);
+}
+
+
+.abajo-copy{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    right: 53px;
+    top: 0;
+    bottom: 0;
+    align-items: center;
 }
 
